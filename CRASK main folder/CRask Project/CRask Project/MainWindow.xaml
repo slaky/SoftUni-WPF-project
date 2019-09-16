@@ -1,0 +1,103 @@
+﻿<Window x:Class="CRask_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRask_Project"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="CRask Main Screen"        
+        ResizeMode="CanResizeWithGrip" 
+        WindowStartupLocation="CenterScreen"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Height="800" Width="1400" 
+        MinHeight="600" MinWidth="1300"
+        >
+
+    <Grid Background="White">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <local:Sidemenu Grid.ColumnSpan="6" Grid.RowSpan="7"/>
+
+        <TextBlock Grid.Column="1" Grid.ColumnSpan="4"
+                   Grid.Row="1" FontFamily="Arial"
+                   FontWeight="Bold" FontSize="44"
+                   TextWrapping="Wrap"
+                   TextAlignment="Center">
+            Please select what you would like to troubleshoot:
+        </TextBlock>
+        <Image x:Name="MainScreen" Source="images/mainscreen.jpg"
+               Grid.Column="1" Grid.ColumnSpan="4"
+               Grid.Row="2" Grid.RowSpan="4"/>
+
+        <Button x:Name="Optimizers"
+                Style="{DynamicResource BackBtn}"
+                Margin="150 25 100 60"               
+                Background="Transparent"                 
+                Grid.Column="1" Grid.ColumnSpan="2"
+                Grid.Row="2" Grid.RowSpan="3" >
+            <TextBlock FontFamily="Georgia" FontSize="30" 
+                       Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       FontWeight="Bold" FontStyle="Italic" Margin="0 0 35 0"
+                       TextWrapping="Wrap">
+                Optimizers
+            </TextBlock>
+        </Button>
+        <Button x:Name="Inverters"
+                Style="{DynamicResource BackBtn}"
+                Click="Inverters_Click"
+                Margin="150 25 100 60"               
+                Background="Transparent"                 
+                Grid.Column="2" Grid.ColumnSpan="2"
+                Grid.Row="2" Grid.RowSpan="3" Cursor="Hand">
+            <TextBlock FontFamily="Georgia" FontSize="30" 
+                       Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       FontWeight="Bold" FontStyle="Italic" Margin="0 0 40 0"
+                       TextWrapping="Wrap">
+                Inverters
+            </TextBlock>
+        </Button>
+        <Button x:Name="GeneralQuestions"
+                Style="{DynamicResource BackBtn}"
+                Margin="150 25 100 60"               
+                Background="Transparent"                 
+                Grid.Column="3" Grid.ColumnSpan="2"
+                Grid.Row="2" Grid.RowSpan="3">
+            <TextBlock FontFamily="Georgia" FontSize="30" 
+                       Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       FontWeight="Bold" FontStyle="Italic" Margin="0 0 40 0"
+                       TextWrapping="Wrap">
+                General
+                <LineBreak/>
+                Questions
+            </TextBlock>
+        </Button>
+
+
+    </Grid>
+</Window>

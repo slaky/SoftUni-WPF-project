@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="CRask_Project.Sidemenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CRask_Project"
+             
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1080">
+    
+
+    <UserControl.Resources>
+        <Storyboard x:Key="MenuOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="60"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="180"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="MenuClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="180"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="60"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuOpen}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+
+
+    <!--<UserControl.Template>
+        <ControlTemplate TargetType="UserControl">-->
+            <Grid>
+            <!--This is the top screen line - first code is FF4C008B Background="#05004e"-->
+                <Grid Height="70" VerticalAlignment="Top" Background="#1f3c88">
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="Welcome to" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="WhiteSmoke" TextDecorations="{x:Null}" FontFamily="Arial"/>
+                        <Image x:Name="crasklogo" Source="/CRask Project;component/images/crasklogo.png" Margin="10" />
+                    </StackPanel>
+                    
+
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock Text="Open Tools" VerticalAlignment="Center" FontSize="18" Foreground="WhiteSmoke" FontFamily="Arial"/>
+
+                        <materialDesign:PopupBox Margin="10"
+                                         PlacementMode="BottomAndAlignRightEdges" 
+                                         StaysOpen="False" Foreground="WhiteSmoke">
+                            <StackPanel Width="150">
+                                <Button x:Name="buttonRTmon" Content="RTmon" Click="ButtonRTmon_Click"/>
+                                <Button x:Name="buttonLoosePem" Content="LoosePem" Click="ButtonLoosePem_Click"/>
+                                <Button x:Name="buttonServerAdmin" Content="Server Admin" Click="ButtonServerAdmin_Click"/>
+                                <Button x:Name="buttonPacketSniffer" Content="Packet Sniffer" Click="ButtonPacketSniffer_Click"/>
+                                <Button x:Name="buttonStringMapper" Content="String Mapper" Click="ButtonStringMapper_Click" />
+                                <Button x:Name="buttonLogOff" Content="Log off" Click="ButtonLogOff_Click" />
+                                <Separator/>
+                                <Button x:Name="ButtonPopUpExit" Content="Exit App" Click="ButtonPopUpExit_Click"/>
+                            </StackPanel>
+                        </materialDesign:PopupBox>
+
+                    </StackPanel>
+
+                </Grid>
+
+                <!--This is the left sidebar - first code is FFA29E9E-->
+        <Grid x:Name="GridMenu" Width="60" HorizontalAlignment="Left" Background="#070d59">
+                    <StackPanel>
+                    <!--Previous color #FFFB0321 -->
+                        <Grid  Height="70" Background="#ff7517">
+                            <Button x:Name="ButtonCloseMenu" Width="60" Height="60" Background="{x:Null}"
+                                BorderBrush="{x:Null}"
+                                VerticalAlignment="Top" HorizontalAlignment="Right"
+                                Click="ButtonCloseMenu_Click">
+                            <materialDesign:PackIcon Foreground="#05004e" Kind="ArrowLeft" Width="25" Height="25" />
+                            </Button>
+                            <Button x:Name="ButtonOpenMenu" Width="60" Height="60" Background="{x:Null}"
+                                BorderBrush="{x:Null}"
+                                VerticalAlignment="Top" HorizontalAlignment="Right"
+                                Click="ButtonOpenMenu_Click">
+                                <materialDesign:PackIcon Foreground="#05004e" Kind="Menu" Width="25" Height="25" />
+                            </Button>
+
+                        </Grid>
+                        <!--This is the menu buttons-->
+                        <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Foreground="#FFDD7DEC" SelectionChanged="ListView_SelectionChanged" Background="White">
+                            <ListViewItem Height="60" Selected="ListViewItem_Selected">
+                                <StackPanel Orientation="Horizontal">
+
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="ViewDashboard" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Solar Edge" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+
+                                </StackPanel>
+
+                            </ListViewItem>
+                            <ListViewItem Height="60" Selected="Passport_Selected">
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="Passport" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Passport" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+                                </StackPanel>
+
+                            </ListViewItem>
+                            <ListViewItem Height="60" Selected="Monitoring_Selected" >
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="Monitor" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Monitoring" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+                                </StackPanel>
+
+                            </ListViewItem>
+                            <ListViewItem Height="60" Selected="CRedgeSearch_Selected">
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="BriefcaseSearch" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="CRedge Search" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+                                </StackPanel>
+
+                            </ListViewItem>
+                            <ListViewItem Height="60" Selected="CRedgeCreate_Selected">
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="BriefcaseUpload" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="CRedge Create" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+                                </StackPanel>
+
+                            </ListViewItem>
+                            <ListViewItem Height="60" Selected="WebTools_Selected">
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Foreground="#ff0000"
+                                    Kind="Toolbox" Width="25" Height="25" Margin="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="WebTools" Foreground="#ff0000" VerticalAlignment="Center" Margin="20 10"/>
+                                </StackPanel>
+
+                            </ListViewItem>
+                        </ListView>
+
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        <!--</ControlTemplate>
+        
+    </UserControl.Template>-->
+    
+
+</UserControl>

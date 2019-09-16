@@ -1,0 +1,51 @@
+﻿<Window x:Class="CRask_Project.location.onsitelocation.gsmsteps.notregisteredsteps.under2111"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRask_Project"
+        xmlns:onsite="clr-namespace:CRask_Project.location.onsitelocation"
+        xmlns:gsmsteps="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps"
+        xmlns:notregistered="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps.notregisteredsteps"
+        mc:Ignorable="d"
+        Title="Not Registered - CSQ value under 11" 
+        Height="800" Width="1400"
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <local:Sidemenu/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="451,267,0,0" TextWrapping="Wrap"
+                   Text="Coverage is poor. Relocate the antenna until it is over 11"
+                   VerticalAlignment="Top" Height="155" Width="394" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="back" Style="{StaticResource MainScreenButton}" Content="Go Back" HorizontalAlignment="Left" Margin="539,487,0,0" VerticalAlignment="Top" Width="144" Height="85" FontSize="22" FontWeight="Bold" Click="Back_Click"/>
+        <RichTextBox x:Name="richTextBox"
+                     HorizontalAlignment="Left" 
+                     Height="455" Margin="922,267,0,0"
+                     VerticalAlignment="Top" Width="419"
+                     FontSize="24" Padding="5"
+                     Background="WhiteSmoke">
+            <FlowDocument>
+                <Paragraph>Issue: No S_OK on inverter - Not registered
+                </Paragraph>
+                <Paragraph>
+                    Actions:
+                    <LineBreak/>
+                    - Tried to establish communication - failed
+                    <LineBreak/>
+                    - Checked CPU version - Not 3.2463.3900 or newer
+                    <LineBreak/>
+                    - There is coverage for T-Mobile
+                    <LineBreak/>
+                    - Ran a diagnostics for CSQ - Under 11
+                    <LineBreak/>
+                    - Advised to relocate antennna as due to bad coverage
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="casenote" Content="Case Notes:" 
+               HorizontalAlignment="Left" Margin="922,209,0,0" 
+               VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Height="52" Width="221"/>
+    </Grid>
+</Window>

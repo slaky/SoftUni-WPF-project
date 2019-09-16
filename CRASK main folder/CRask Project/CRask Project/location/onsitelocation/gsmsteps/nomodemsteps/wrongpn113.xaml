@@ -1,0 +1,23 @@
+﻿<Window x:Class="CRask_Project.location.onsitelocation.gsmsteps.nomodemsteps.wrongpn113"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRask_Project"
+        xmlns:onsite="clr-namespace:CRask_Project.location.onsitelocation"
+        xmlns:gsmsteps="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps"
+        xmlns:nomodem="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps.nomodemsteps"
+        mc:Ignorable="d"
+        Title="No Modem Detected - Wrong Part Number" 
+        Height="600" Width="1080"
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <local:Sidemenu/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="248,188,0,0" TextWrapping="Wrap"
+                   Text="Advise what to buy. What is the correct part to purchase (No RMA for this): -----more info ------"
+                   VerticalAlignment="Top" Height="137" Width="530" FontSize="24"/>
+    </Grid>
+</Window>

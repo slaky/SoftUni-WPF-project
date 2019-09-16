@@ -1,0 +1,162 @@
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.csprojAssemblyReference.cache
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\MainWindow.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\SiteStatus.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\App.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project_MarkupCompile.cache
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project_MarkupCompile.lref
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\CRask Project.exe.config
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\CRask Project.exe
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\CRask Project.pdb
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\MainWindow.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\SiteStatus.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.g.resources
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask_Project.Properties.Resources.resources
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.GenerateResource.cache
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.CoreCompileInputs.cache
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.exe
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.pdb
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsite.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsite.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsite.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsite.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsitelocation\gsm.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsitelocation\gsm.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsitelocation\zigbee.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsm.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\zigbee.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\offsitelocation\zigbee.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsm.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\zigbee.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodem.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregistered.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodem.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregistered.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\continue111.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\fourleds11121.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\lessthanfour11122.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\no1112.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem11.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem12.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\orientation112.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\resolved1111.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\wrongpn113.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\continue111.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\fourleds11121.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\lessthanfour11122.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\no1112.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem11.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem12.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\orientation112.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\resolved1111.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\wrongpn113.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\above2112.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\equal2113.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\no22.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\notmobile212.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\under2111.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yes21.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yestmobile211.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\above2112.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\equal2113.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\no22.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\notmobile212.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\under2111.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yes21.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yestmobile211.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\MaterialDesignColors.pdb
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\App.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.CopyComplete
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\controls\sidemenu.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\controls\sidemenu.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\styles\MainDictionary.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\CRask Project_Content.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\Window1.baml
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\Window1.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\InverterTroubleshoting.g.cs
+C:\Users\slaky\Desktop\SolarEdge Project\CRask Project\CRask Project\obj\Debug\InverterTroubleshoting.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\CRask Project.exe.config
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\CRask Project.exe
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\CRask Project.pdb
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\MaterialDesignColors.pdb
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.csprojAssemblyReference.cache
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\Window1.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\controls\sidemenu.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\InverterTroubleshoting.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsite.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsitelocation\gsm.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsitelocation\zigbee.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsite.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsm.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodem.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\continue111.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\fourleds11121.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\lessthanfour11122.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\no1112.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem11.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem12.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\orientation112.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\resolved1111.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\wrongpn113.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregistered.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\above2112.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\equal2113.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\no22.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\notmobile212.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\under2111.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yes21.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yestmobile211.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\zigbee.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\MainWindow.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\SiteStatus.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\Window1.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\App.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project_Content.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project_MarkupCompile.cache
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project_MarkupCompile.lref
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\App.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\controls\sidemenu.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\InverterTroubleshoting.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsite.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsitelocation\gsm.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\offsitelocation\zigbee.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsite.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsm.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodem.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\continue111.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\fourleds11121.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\lessthanfour11122.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\no1112.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem11.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\nomodem12.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\orientation112.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\resolved1111.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\nomodemsteps\wrongpn113.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregistered.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\above2112.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\equal2113.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\no22.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\notmobile212.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\under2111.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yes21.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\gsmsteps\notregisteredsteps\yestmobile211.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\location\onsitelocation\zigbee.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\MainWindow.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\SiteStatus.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\styles\MainDictionary.baml
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.g.resources
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask_Project.Properties.Resources.resources
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.GenerateResource.cache
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.CoreCompileInputs.cache
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.csproj.CopyComplete
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.exe
+C:\Users\slaky\Desktop\CRASK main folder\CRask Project\CRask Project\obj\Debug\CRask Project.pdb

@@ -1,0 +1,92 @@
+﻿<Window x:Class="CRask_Project.location.onsitelocation.gsmsteps.notregisteredsteps.yestmobile211"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:CRask_Project"
+        xmlns:onsite="clr-namespace:CRask_Project.location.onsitelocation"
+        xmlns:gsmsteps="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps"
+        xmlns:notregistered="clr-namespace:CRask_Project.location.onsitelocation.gsmsteps.notregisteredsteps"        mc:Ignorable="d"
+        Title="Not Registered - T-mobile is there"
+        Height="800" Width="1400"
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <local:Sidemenu/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="214,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="311" Width="584" FontSize="24" FontFamily="Arial">
+            Tell the installer to go to the inverter screen and open the following:
+            <LineBreak/>
+            <LineBreak/>
+            1-Maintanence>
+            <LineBreak/>
+            2-Diagnostics>
+            <LineBreak/>
+            3-Cellular>
+            <LineBreak/>
+            4-Run Diagnostics>
+            <LineBreak/>
+            <LineBreak/>
+            Check the number next to CSQ? (Ask the installer)
+        </TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="922,97,0,0" TextWrapping="Wrap" Text="VIDEO AND PICTURE GUIDE CAN BE PUT THERE" 
+                   VerticalAlignment="Top" Height="94" Width="304" FontSize="22" FontWeight="Bold" FontStyle="Italic"/>
+
+        <Button x:Name="under11" Style="{StaticResource MainScreenButton}"
+                Content="Under 11" HorizontalAlignment="Left" Margin="214,465,0,0" VerticalAlignment="Top" Width="169" Height="94" FontSize="20" FontWeight="Bold" Click="Under11_Click" />
+        <Button x:Name="above11" Style="{StaticResource MainScreenButton}"
+                Content="Above 11" HorizontalAlignment="Left" Margin="408,465,0,0" VerticalAlignment="Top" Width="167" Height="94" FontSize="20" FontWeight="Bold" Click="Above11_Click" />
+        <Button x:Name="equalTo99" Style="{StaticResource MainScreenButton}"
+                Content="Equal to 99" HorizontalAlignment="Left" Margin="598,465,0,0" VerticalAlignment="Top" Width="156" Height="94" FontSize="20" FontWeight="Bold" Click="EqualTo99_Click" />
+
+        <RichTextBox x:Name="richTextBox"
+                     HorizontalAlignment="Left" 
+                     Height="383" Margin="922,224,0,0"
+                     VerticalAlignment="Top" Width="419"
+                     FontSize="24" Padding="5"
+                     Background="WhiteSmoke">
+            <FlowDocument>
+                <Paragraph>Issue: No S_OK on inverter - Not registered
+                </Paragraph>
+                <Paragraph>
+                    Actions:
+                    <LineBreak/>
+                    - Tried to establish communication - failed
+                    <LineBreak/>
+                    - Checked CPU version - Not 3.2463.3900 or newer
+                    <LineBreak/>
+                    - There is coverage for T-Mobile
+                    <LineBreak/>
+                    - Ran a diagnostics for CSQ - 
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="casenote" Content="Case Notes:" 
+               HorizontalAlignment="Left" Margin="922,172,0,0" 
+               VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Height="52" Width="221"/>
+
+        <!--This is the back/home buttons-->
+        <Button  x:Name="BackBtn" Style="{StaticResource BackBtn}"
+                 Click="BackBtn_Click"
+                 Content="Back" 
+                 Background="#FFD63636" Foreground="White"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Top" 
+                 Margin="0,659,10,0"
+                 Height="26" Width="88"/>
+        <Button  x:Name="HomeBtn" Style="{StaticResource BackBtn}"
+                 Click="HomeBtn_Click"
+                 Content="Home" Foreground="White"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top" Margin="1183,659,0,0"
+                 Height="26" Width="87" Background="#FF264FCB"/>
+
+
+        <Image x:Name="selogo" Source="/CRask Project;component/images/logo.png"
+               HorizontalAlignment="Right" 
+               VerticalAlignment="Bottom"
+               Margin="0,0,10,10" Height="42" Width="201"/>
+
+    </Grid>
+</Window>
